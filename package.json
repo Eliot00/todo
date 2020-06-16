@@ -5,9 +5,11 @@
   "author": "elliot00",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.0.4"
+    "electron": "^9.0.4",
+    "electron-packager": "^14.2.1"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "packager": "electron-packager ./ Todo --all --out ./outApp --overwrite"
   }
 }
