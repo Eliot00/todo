@@ -1,0 +1,13 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "elliot00",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
